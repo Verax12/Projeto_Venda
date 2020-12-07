@@ -7,3 +7,12 @@ C:\Users\w.gontijo\source\repos\Projeto_Vendas\Projeto_Vendas_Lib\bin\Debug\netc
 C:\Users\w.gontijo\source\repos\Projeto_Vendas\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.dll
 C:\Users\w.gontijo\source\repos\Projeto_Vendas\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.pdb
 C:\Users\w.gontijo\source\repos\Projeto_Vendas\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.csproj.CoreCompileInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_Lib.deps.json
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_Lib.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_Lib.pdb
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.csprojAssemblyReference.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.AssemblyInfoInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.AssemblyInfo.cs
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.csproj.CoreCompileInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_Lib.pdb

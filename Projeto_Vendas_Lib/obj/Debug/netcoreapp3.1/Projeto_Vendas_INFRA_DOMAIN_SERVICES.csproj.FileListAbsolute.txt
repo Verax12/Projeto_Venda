@@ -1,0 +1,8 @@
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.deps.json
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\bin\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.pdb
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.AssemblyInfoInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.AssemblyInfo.cs
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.csproj.CoreCompileInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas_Lib\obj\Debug\netcoreapp3.1\Projeto_Vendas_INFRA_DOMAIN_SERVICES.pdb

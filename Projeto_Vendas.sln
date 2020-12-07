@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_Vendas.API", "Projeto_Vendas.API\Projeto_Vendas.API.csproj", "{ED20A50A-C017-4D50-B643-76552EE1D07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_Vendas.API", "Projeto_Vendas.API\Projeto_Vendas.API.csproj", "{ED20A50A-C017-4D50-B643-76552EE1D07A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto_Vendas_Lib", "Projeto_Vendas_Lib\Projeto_Vendas_Lib.csproj", "{D26E6D41-FB3B-4694-9DFC-89CF0D99423C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto_Vendas_Lib", "Projeto_Vendas_Lib\Projeto_Vendas_Lib.csproj", "{D26E6D41-FB3B-4694-9DFC-89CF0D99423C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
