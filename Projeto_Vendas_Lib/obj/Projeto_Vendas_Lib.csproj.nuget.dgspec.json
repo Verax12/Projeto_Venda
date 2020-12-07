@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj": {}
+    "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj": {
+    "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj",
+        "projectUniqueName": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj",
         "projectName": "Projeto_Vendas_Lib",
-        "projectPath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj",
+        "projectPath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj",
         "packagesPath": "C:\\Users\\w.gontijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas_Lib\\obj\\",
+        "outputPath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

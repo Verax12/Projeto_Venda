@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/RIN4SP1C8n/+ldCw7hKMCEJI1QAfq4Iis15JtPvTLBLEFKt3chp4a1XkjuYLPdBBKTDnBsH038CcHohXISoZw==",
+  "dgSpecHash": "Cj7Zj853Ct0oiOX4a3qqH0BuaQZ92MFlrdvMqmxp5nxAi+wgTimgmKZFk9z6NHyafUNlbf6JtMNo+HMMFVtj/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Vendas\\Projeto_Vendas.API\\Projeto_Vendas.API.csproj",
+  "projectFilePath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas.API\\Projeto_Vendas.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w.gontijo\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
