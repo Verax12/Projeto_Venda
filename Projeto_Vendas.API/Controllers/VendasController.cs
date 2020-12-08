@@ -68,10 +68,33 @@ namespace Projeto_Vendas.API.Controllers
         {
 
             Venda venda = _serviceVenda.GetById(id);
-            venda.StatusVenda = status;
 
-            _serviceVenda.Update(venda);
-            return Ok();
+            if (ValidaStatus(venda, status))
+            {
+                venda.StatusVenda = status;
+
+                _serviceVenda.Update(venda);
+                return Ok();
+            }
+            return Ok("O Status não pode ser alterado, confira as regras de alteração");
+        }
+
+        private bool ValidaStatus(Venda venda, StatusVenda status)
+        {
+            if (venda.StatusVenda.Equals(StatusVenda.Aguardando_Pagamento) && (status.Equals(StatusVenda.Pagamento_Aprovado) || status.Equals(StatusVenda.Cancelada)))
+            {
+                return true;
+            }
+            if (venda.StatusVenda.Equals(StatusVenda.Pagamento_Aprovado) && (status.Equals(StatusVenda.Enviado_para_Transportadora) || status.Equals(StatusVenda.Cancelada)))
+            {
+                return true;
+            }
+            if (venda.StatusVenda.Equals(StatusVenda.Enviado_para_Transportadora) && status.Equals(StatusVenda.Entregue))
+            {
+                return true;
+            }
+            return false;
+
         }
     }
 }
