@@ -20,6 +20,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Projeto_Vendas.API
 {
@@ -35,7 +36,13 @@ namespace Projeto_Vendas.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddCors();
+
+            // Dot.Net 3.1 Precisa instalar o pacote novamente 
+            // Install-Package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
+
+            services.AddControllers().AddNewtonsoftJson(options =>
+                        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddDbContext<ProjetoContext>(opt => opt.UseInMemoryDatabase("ProjetoVendas"));
             services.AddSwaggerGen(c =>
             {
@@ -51,7 +58,7 @@ namespace Projeto_Vendas.API
                         Email = "william854@live.com",
                         Url = new Uri("https://www.linkedin.com/in/william-gontijo-543628142/"),
                     },
-                   
+
                 });
                 c.OperationFilter<SecurityRequirementsOperationFilter>();
 
@@ -61,7 +68,7 @@ namespace Projeto_Vendas.API
 
 
             });
-            }
+        }
 
         //Configurando o AUTOFAC
         public void ConfigureContainer(ContainerBuilder builder) => builder.RegisterModule(new ModuleIOC());
@@ -122,6 +129,34 @@ namespace Projeto_Vendas.API
                 Telefone = "31 3232-3232"
             };
             context.Vendedores.Add(vendedor);
+
+            Item item = new Item
+            {
+                Descricao = "TV 32'",
+                Preco = 399.90,
+                QuantidadeEmEstoque = 10
+            };
+
+            Item item2 = new Item
+            {
+                Descricao = "Geladeira",
+                Preco = 299.90,
+                QuantidadeEmEstoque = 5
+            };
+
+            context.Itens.Add(item);
+            context.Itens.Add(item2);
+
+            Venda venda = new Venda
+            {
+                Itens = new List<Item> { item },
+                Vendedor = vendedor,
+                Cliente = cliente
+            };
+
+
+            context.Vendas.Add(venda);
+
             context.SaveChanges();
         }
     }

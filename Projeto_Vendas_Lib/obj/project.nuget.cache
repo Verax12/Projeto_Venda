@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N/Xb+/zmGL4bmDPl1iR4tPIwHqWwc5eyDDwl3hcaR8FbfRgNY5pd/j3wQUEcGP1t8HQHzqwnv2MwNMyTyDemJA==",
+  "dgSpecHash": "qzLR1D+3vR/mTMdL3FrM8pQNwgnhyc1NbxqIjuwC2/cFSheGO2KI78UZJIp+FSQwYyA1Drs7PkIrSHMv9ShPMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas_Lib\\Projeto_Vendas_Lib.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\w.gontijo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"

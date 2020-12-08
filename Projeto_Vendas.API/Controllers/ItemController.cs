@@ -12,41 +12,42 @@ namespace Projeto_Vendas.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class VendedorController : ControllerBase
+    public class ItemController : ControllerBase
     {
-        private readonly IServiceVendedor _serviceVendedor;
 
-        public VendedorController(IServiceVendedor serviceVendedor)
+        private readonly IServiceItem _serviceItem;
+
+        public ItemController(IServiceItem serviceItem)
         {
-            _serviceVendedor = serviceVendedor;
+            _serviceItem = serviceItem;
         }
 
-        // GET: api/<VendedorController>
+        // GET: api/<ItemController>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(_serviceVendedor.GetAll());
+            return Ok(_serviceItem.GetAll());
         }
 
-        // GET api/<VendedorController>/5
+        // GET api/<ItemController>/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id)
         {
-            return Ok(_serviceVendedor.GetById(id));
+            return Ok(_serviceItem.GetById(id));
         }
 
-        // POST api/<VendedorController>
+        // POST api/<ItemController>
         [HttpPost]
-        public void Post(Vendedor vendedor)
+        public void Post(Item item)
         {
-            _serviceVendedor.Add(vendedor);
+            _serviceItem.Add(item);
         }
 
-        // PUT api/<VendedorController>/5
+        // PUT api/<ItemController>/5
         [HttpPut("{id}")]
-        public void Put(Vendedor vendedor)
+        public void Put(Item item)
         {
-            _serviceVendedor.Update(vendedor);
+            _serviceItem.Update(item);
         }
 
     }

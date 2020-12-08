@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Cj7Zj853Ct0oiOX4a3qqH0BuaQZ92MFlrdvMqmxp5nxAi+wgTimgmKZFk9z6NHyafUNlbf6JtMNo+HMMFVtj/w==",
+  "dgSpecHash": "f8CM/mZsNH/+oyDFcKJT0MunMrzj0i2PMljuktTy1sDuTiFs6h6FXj8/Tu5tJhLKnzM6dfWkTI8oJNwKJs07Cw==",
   "success": true,
   "projectFilePath": "C:\\Users\\w.gontijo\\source\\repos\\Projeto_Venda\\Projeto_Vendas.API\\Projeto_Vendas.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w.gontijo\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.2\\microsoft.aspnetcore.jsonpatch.3.1.2.nupkg.sha512",
+    "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.2\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.2.nupkg.sha512",
+    "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
@@ -25,6 +28,7 @@
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\w.gontijo\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\scrutor\\3.0.1\\scrutor.3.0.1.nupkg.sha512",
     "C:\\Users\\w.gontijo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.0.0\\swashbuckle.aspnetcore.5.0.0.nupkg.sha512",

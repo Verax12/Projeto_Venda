@@ -88,9 +88,6 @@ C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netco
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.csprojAssemblyReference.cache
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.AssemblyInfoInputs.cache
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.AssemblyInfo.cs
-C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.csproj.CoreCompileInputs.cache
-C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.RazorTargetAssemblyInfo.cache
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.csproj.CopyComplete
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\staticwebassets\Projeto_Vendas.API.StaticWebAssets.Manifest.cache
@@ -100,3 +97,9 @@ C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netco
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.genruntimeconfig.cache
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netcoreapp3.1\Projeto_Vendas_Lib.dll
 C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netcoreapp3.1\Projeto_Vendas_Lib.pdb
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.csproj.CoreCompileInputs.cache
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\w.gontijo\source\repos\Projeto_Venda\Projeto_Vendas.API\obj\Debug\netcoreapp3.1\Projeto_Vendas.API.MvcApplicationPartsAssemblyInfo.cache

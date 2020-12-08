@@ -39,7 +39,7 @@ namespace Projeto_Vendas_Lib.Repository
             }
         }
 
-        public T GetById(int id)
+        public T GetById(Guid id)
         {
             return _context.Set<T>().Find(id);
         }

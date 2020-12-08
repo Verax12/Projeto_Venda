@@ -17,7 +17,7 @@ namespace Projeto_Vendas_Lib.Service
         {
             _repositoryBase.Add(obj);
         }
-        public virtual T GetById(int id)
+        public virtual T GetById(Guid id)
         {
             return _repositoryBase.GetById(id);
         }
