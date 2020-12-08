@@ -151,7 +151,9 @@ namespace Projeto_Vendas.API
             {
                 Itens = new List<Item> { item },
                 Vendedor = vendedor,
-                Cliente = cliente
+                Cliente = cliente,
+                StatusVenda = 0,
+                DataVenda = DateTime.Now
             };
 
 

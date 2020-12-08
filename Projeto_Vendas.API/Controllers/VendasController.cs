@@ -10,6 +10,7 @@ using Projeto_Vendas_Lib.Infra.Context;
 using Projeto_Vendas_Lib.Service;
 using Projeto_Vendas_Lib.Service.IServices;
 using System.Text.Json;
+using Projeto_Vendas_Lib.Domain.Enum;
 
 namespace Projeto_Vendas.API.Controllers
 {
@@ -24,14 +25,23 @@ namespace Projeto_Vendas.API.Controllers
             _serviceVenda = serviceVenda;
         }
 
+        /// <summary>
+        /// Verifica todas as vendas realizadas
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<List<Venda>> Get()
         {
             return _serviceVenda.GetVendaCompleta().Result;
         }
 
+        /// <summary>
+        /// Get Venda By Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(Guid id)
+        public async Task<IActionResult> GetById(Guid id)
         {
             return Ok(_serviceVenda.GetVendaCompletaById(id).Result);
         }
@@ -39,23 +49,27 @@ namespace Projeto_Vendas.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(Venda venda)
         {
-            venda.Id = Guid.NewGuid();
+            if (!venda.Itens.Count.Equals(0))
+            {
+                venda.Id = Guid.NewGuid();
+                venda.StatusVenda = 0;
+                venda.DataVenda = DateTime.Now;
 
-            _serviceVenda.Add(venda);
+                _serviceVenda.Add(venda);
+                return Ok();
+            }
 
-            return Ok();
+            return Ok("A Venda precisa de ao menos um item para ser efetuada");
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Venda venda)
+        [Route("UpdateStatus")]
+        public async Task<IActionResult> AtualizaStatusVenda(Guid id, StatusVenda status)
         {
-            _serviceVenda.Update(venda);
-            return Ok();
-        }
 
-        [HttpPut]
-        public async Task<IActionResult> AtualizaStatusVenda(Venda venda)
-        {
+            Venda venda = _serviceVenda.GetById(id);
+            venda.StatusVenda = status;
+
             _serviceVenda.Update(venda);
             return Ok();
         }

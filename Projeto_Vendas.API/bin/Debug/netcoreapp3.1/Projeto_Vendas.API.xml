@@ -4,5 +4,18 @@
         <name>Projeto_Vendas.API</name>
     </assembly>
     <members>
+        <member name="M:Projeto_Vendas.API.Controllers.VendasController.Get">
+            <summary>
+            Verifica todas as vendas realizadas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Projeto_Vendas.API.Controllers.VendasController.GetById(System.Guid)">
+            <summary>
+            Get Venda By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
